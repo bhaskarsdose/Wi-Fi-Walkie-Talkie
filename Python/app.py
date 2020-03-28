@@ -1,7 +1,4 @@
-#
-# Created by Rui Santos
-# Complete project details: https://randomnerdtutorials.com
-#edited by bhaskar dutt
+#by bhaskar dutt
 
 import paho.mqtt.client as mqtt
 from flask import Flask, render_template, request

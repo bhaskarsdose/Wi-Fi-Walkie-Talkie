@@ -1,11 +1,4 @@
-/*****
- 
- All the resources for this project:
- https://randomnerdtutorials.com/
- 
-*****/
-
-// Loading the ESP8266WiFi library and the PubSubClient library
+//by bhaskar
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
@@ -154,18 +147,5 @@ void loop() {
     reconnect();
   }
   if(!client.loop())
-     /*
-     YOU  NEED TO CHANGE THIS NEXT LINE, IF YOU'RE HAVING PROBLEMS WITH MQTT MULTIPLE CONNECTIONS
-     To change the ESP device ID, you will have to give a unique name to the ESP8266.
-     Here's how it looks like now:
-       client.connect("ESP8266Client");
-     If you want more devices connected to the MQTT broker, you can do it like this:
-       client.connect("ESPOffice");
-     Then, for the other ESP:
-       client.connect("ESPGarage");
-      That should solve your MQTT multiple connections problem
-
-     THE SECTION IN recionnect() function should match your device name
-    */
-    client.connect("ESP8266Client");
+  client.connect("ESP8266Client");
 }
