@@ -23,9 +23,13 @@ Project includes WIFI walkie talkie based out of pi and mesh network using ESP n
 
 Some of the features of this project:-
 
-​				![](https://github.com/bhaskarsdose/Wi-Fi-walkie-talkie-Mesh-network/blob/master/Images%20%26%20Docs/Features.jpeg)
+* 
+
+![](https://github.com/bhaskarsdose/Wi-Fi-walkie-talkie-Mesh-network/blob/master/Images%20%26%20Docs/Features.jpeg)
 
 Machine learning aspect of our project which can be easily implemented:-
+
+* 
 
 ![](https://github.com/bhaskarsdose/Wi-Fi-walkie-talkie-Mesh-network/blob/master/Images%20%26%20Docs/ML.PNG)
 
